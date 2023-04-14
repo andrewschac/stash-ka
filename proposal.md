@@ -27,4 +27,5 @@ Our project assess employee variables on the macro-level, meaning our dataset wi
 - Productivity - Total Factor Productivity
 - Employee Growth - ? 
 - Promotion Opportunities - % of US employees who elevated to a high position
+
 Though we have access to the overall percentage of the US working population who is WFH, annually, we still need to acquire some of the variable data. We intend to measure employee productivity by utilizing Total Factor Productivity, a measure that is tracked by the [Bureau of Labor Statistics](https://www.bls.gov/productivity/data.htm). We are still researching ways to gain access to US turnover and promotion data. In regard to employee growth, we are struggling to find ways to quantify the measures of training, development, and integration. 
