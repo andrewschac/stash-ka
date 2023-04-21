@@ -22,6 +22,8 @@ In answering these questions, we mostly intend to assess how the levels of varia
     
 ## Data
 
+*Update: We've identified a starting dataset which is located in the `inputs` folder, `employee_benefits.csv`. Specifically, we plan to keep `['series title'], ['Year'], ['Estimate'], ['Industry text']`*
+
 Our project assess employee variables on the industry-level, meaning our dataset will be a **panel dataset**. More specifically, each year will have a list of industries as well as the work from home data for each industry in each year. Our idea is to combine the [Bureau of Labor Statistics' National Compensation Survey Dataset](https://www.bls.gov/ebs/publications/september-2022-landing-page-employee-benefits-in-the-united-states-march-2022.htm)(2010-2022 excel sheet) with other variables that define employee opportunities and performance. The variables we intend to add to this dataset include the following:
 - Turnover - % of US employees who left their firm
 - Productivity - Total Factor Productivity
@@ -46,4 +48,4 @@ Another option we are exploring to add variables to our final dataset is downloa
 
 ## Visualizations
 
-We are planning to include a few different visualizations in our final work product that will give more context to our answers to our questions. First, we will use regression to talk about work from home across industries. Some questions these visualizations would answer could include are individuals who work for WFH companies  productive than their office counterparts, or how does work from home vary by industry. Both of these questions could be answered with simple regression models, like the second question, where the industry would be on the x-axis and percentage of work from home employees would be on the y-axis. Other visualizations we are thinking about include a heat map of industry vs. work from home vs. productivity. None of these visualizations are overly complex but they would be informative and provide good additions to our data.
+We are planning to include a few different visualizations in our final work product that will give more context to our answers to our questions. First, we will use regression to talk about work from home across industries. Some questions these visualizations would answer could include are individuals who work for WFH companies associated with higher productivity than their in-office counterparts, or is a greater WFH proportion associated with an increased likelihood of turnover? Both of these questions could be answered with regression models and graphed in a scatterplot for display, like the second question, where the WFH % would be on the x-axis and turnover % would be on the y-axis for a certain industry at different levels of WFH. Other visualizations we are thinking about include a heat map of industry vs. work from home vs. productivity. None of these visualizations are overly complex but they would be informative and provide good additions to our data.
