@@ -32,7 +32,7 @@ Our project assess employee variables on the industry-level, meaning our dataset
 
 General Dataset Structure:
 | year | Industry | WFH_percent | Turnover % | Productivity | Employee Growth | Promotion % |
-| --- | --- | --- | --- | --- | 
+| --- | --- | --- | --- | --- | --- | --- | 
 | 2010 | Private sector, Finance and Insurance | 3 | --- | --- | --- | --- |
 | 2011 | Private sector, Finance and Insurance | 3.5 | --- | --- | --- | --- |
 | 2012 | Private sector, Finance and Insurance | 6 | --- | --- | --- | --- |
