@@ -31,14 +31,14 @@ Our project assess employee variables on the industry-level, meaning our dataset
 - Promotion Opportunities - % of US employees who elevated to a high position
 
 General Dataset Structure:
-| year | Industry | WFH_percent 
-| --- | --- | --- |
-| 2010 | Private sector, Finance and Insurance | 3
-| 2011 | Private sector, Finance and Insurance | 3.5
-| 2012 | Private sector, Finance and Insurance | 6
-| 2010 | State and Local Government, Hospitals | 5.8
-| 2011 | State and Local Government, Hospitals | 5.8
-| 2012 | State and Local Government, Hospitals | 5.8
+| year | Industry | WFH_percent | Turnover % | Productivity | Employee Growth | Promotion % |
+| --- | --- | --- | --- | --- | 
+| 2010 | Private sector, Finance and Insurance | 3 | --- | --- | --- | --- |
+| 2011 | Private sector, Finance and Insurance | 3.5 | --- | --- | --- | --- |
+| 2012 | Private sector, Finance and Insurance | 6 | --- | --- | --- | --- |
+| 2010 | State and Local Government, Hospitals | 5.8 | --- | --- | --- | --- |
+| 2011 | State and Local Government, Hospitals | 5.8 | --- | --- | --- | --- |
+| 2012 | State and Local Government, Hospitals | 5.8 | --- | --- | --- | --- |
 
 Though we have access to the overall percentage of the US working population who is WFH, by industry, annually, we still need to acquire some of the variable data. We intend to measure employee productivity by utilizing Total Factor Productivity, a measure that is tracked by the [Bureau of Labor Statistics](https://www.bls.gov/productivity/data.htm). We are still researching ways to gain access to U.S. turnover and promotion data. In regard to employee growth, we are struggling to find ways to quantify the measures of training, development, and integration. 
 
