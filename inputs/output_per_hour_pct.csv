@@ -1,0 +1,210 @@
+Year,% change in output per hour,Industry
+2011,-2.7,Utilities
+2012,-0.9,Utilities
+2013,-0.6,Utilities
+2014,0.6,Utilities
+2015,-0.7,Utilities
+2016,0.2,Utilities
+2017,-0.5,Utilities
+2018,5.6,Utilities
+2019,0.6,Utilities
+2020,-0.9,Utilities
+2021,1.7,Utilities
+2011,-3.5,Construction
+2012,1.1,Construction
+2013,0.5,Construction
+2014,-0.3,Construction
+2015,3.7,Construction
+2016,2.3,Construction
+2017,-0.7,Construction
+2018,-4.1,Construction
+2019,-1.4,Construction
+2020,9.9,Construction
+2021,-3.0,Construction
+2011,6.2,Wholesale trade
+2012,4.0,Wholesale trade
+2013,1.7,Wholesale trade
+2014,2.3,Wholesale trade
+2015,0.2,Wholesale trade
+2016,-0.9,Wholesale trade
+2017,3.6,Wholesale trade
+2018,2.0,Wholesale trade
+2019,-1.4,Wholesale trade
+2020,3.7,Wholesale trade
+2021,7.4,Wholesale trade
+2011,-1.5,Retail trade
+2012,1.2,Retail trade
+2013,4.5,Retail trade
+2014,1.3,Retail trade
+2015,3.5,Retail trade
+2016,4.5,Retail trade
+2017,2.1,Retail trade
+2018,3.9,Retail trade
+2019,2.6,Retail trade
+2020,6.2,Retail trade
+2021,2.1,Retail trade
+2011,1.0,Transportation and warehousing
+2012,2.1,Transportation and warehousing
+2013,-0.8,Transportation and warehousing
+2014,1.1,Transportation and warehousing
+2015,-3.2,Transportation and warehousing
+2016,-2.0,Transportation and warehousing
+2017,1.7,Transportation and warehousing
+2018,-0.5,Transportation and warehousing
+2019,-3.4,Transportation and warehousing
+2020,-10.9,Transportation and warehousing
+2021,1.7,Transportation and warehousing
+2011,6.9,Information
+2012,3.9,Information
+2013,4.9,Information
+2014,4.5,Information
+2015,5.1,Information
+2016,6.1,Information
+2017,3.4,Information
+2018,4.6,Information
+2019,4.7,Information
+2020,8.5,Information
+2021,5.5,Information
+2011,1.2,Finance and insurance
+2012,2.6,Finance and insurance
+2013,1.0,Finance and insurance
+2014,2.6,Finance and insurance
+2015,-0.1,Finance and insurance
+2016,-0.9,Finance and insurance
+2017,1.2,Finance and insurance
+2018,-0.2,Finance and insurance
+2019,0.8,Finance and insurance
+2020,0.9,Finance and insurance
+2021,2.8,Finance and insurance
+2011,2.5,Real estate and rental and leasing
+2012,2.1,Real estate and rental and leasing
+2013,1.6,Real estate and rental and leasing
+2014,2.3,Real estate and rental and leasing
+2015,0.9,Real estate and rental and leasing
+2016,2.7,Real estate and rental and leasing
+2017,-3.7,Real estate and rental and leasing
+2018,-2.4,Real estate and rental and leasing
+2019,4.3,Real estate and rental and leasing
+2020,2.4,Real estate and rental and leasing
+2021,0.6,Real estate and rental and leasing
+2011,0.4,"Professional, scientific, and technical services"
+2012,0.9,"Professional, scientific, and technical services"
+2013,-1.5,"Professional, scientific, and technical services"
+2014,1.7,"Professional, scientific, and technical services"
+2015,-0.3,"Professional, scientific, and technical services"
+2016,1.3,"Professional, scientific, and technical services"
+2017,3.0,"Professional, scientific, and technical services"
+2018,2.0,"Professional, scientific, and technical services"
+2019,2.3,"Professional, scientific, and technical services"
+2020,5.6,"Professional, scientific, and technical services"
+2021,4.6,"Professional, scientific, and technical services"
+2011,0.1,Administrative and waste management services
+2012,-2.0,Administrative and waste management services
+2013,-0.7,Administrative and waste management services
+2014,3.6,Administrative and waste management services
+2015,1.8,Administrative and waste management services
+2016,2.9,Administrative and waste management services
+2017,3.9,Administrative and waste management services
+2018,5.2,Administrative and waste management services
+2019,4.2,Administrative and waste management services
+2020,2.3,Administrative and waste management services
+2021,5.8,Administrative and waste management services
+2011,-1.8,Educational services
+2012,-5.2,Educational services
+2013,-1.6,Educational services
+2014,0.2,Educational services
+2015,1.2,Educational services
+2016,-1.8,Educational services
+2017,1.1,Educational services
+2018,-3.7,Educational services
+2019,-4.3,Educational services
+2020,-3.1,Educational services
+2021,3.8,Educational services
+2011,-0.4,Health care and social assistance
+2012,0.2,Health care and social assistance
+2013,-1.0,Health care and social assistance
+2014,0.8,Health care and social assistance
+2015,1.6,Health care and social assistance
+2016,1.8,Health care and social assistance
+2017,-0.3,Health care and social assistance
+2018,0.5,Health care and social assistance
+2019,1.8,Health care and social assistance
+2020,-2.2,Health care and social assistance
+2021,1.9,Health care and social assistance
+2011,1.3,Other services (except public administration)
+2012,0.6,Other services (except public administration)
+2013,-3.4,Other services (except public administration)
+2014,3.6,Other services (except public administration)
+2015,1.2,Other services (except public administration)
+2016,2.6,Other services (except public administration)
+2017,-1.1,Other services (except public administration)
+2018,-2.0,Other services (except public administration)
+2019,1.8,Other services (except public administration)
+2020,5.2,Other services (except public administration)
+2021,-6.2,Other services (except public administration)
+2011,0.7,Credit intermediation
+2012,3.1,Credit intermediation
+2013,-1.2,Credit intermediation
+2014,0.3,Credit intermediation
+2015,-1.8,Credit intermediation
+2016,-3.1,Credit intermediation
+2017,-1.6,Credit intermediation
+2018,-2.7,Credit intermediation
+2019,0.4,Credit intermediation
+2020,2.0,Credit intermediation
+2021,0.7,Credit intermediation
+2011,5.7,Insurance carriers
+2012,-1.5,Insurance carriers
+2013,3.3,Insurance carriers
+2014,11.3,Insurance carriers
+2015,4.6,Insurance carriers
+2016,0.8,Insurance carriers
+2017,5.1,Insurance carriers
+2018,4.7,Insurance carriers
+2019,0.4,Insurance carriers
+2020,-2.1,Insurance carriers
+2021,4.3,Insurance carriers
+2011,-0.6,Hospitals
+2012,3.6,Hospitals
+2013,1.0,Hospitals
+2014,0.3,Hospitals
+2015,2.8,Hospitals
+2016,2.4,Hospitals
+2017,-0.9,Hospitals
+2018,0.1,Hospitals
+2019,2.4,Hospitals
+2020,-2.4,Hospitals
+2021,8.8,Hospitals
+2011,0.0,Professional and business services
+2012,0.4,Professional and business services
+2013,-1.2,Professional and business services
+2014,1.9,Professional and business services
+2015,0.8,Professional and business services
+2016,0.8,Professional and business services
+2017,3.7,Professional and business services
+2018,3.6,Professional and business services
+2019,3.6,Professional and business services
+2020,4.6,Professional and business services
+2021,3.8,Professional and business services
+2011,-0.5,Education and health services
+2012,-0.5,Education and health services
+2013,-1.0,Education and health services
+2014,0.6,Education and health services
+2015,1.5,Education and health services
+2016,1.4,Education and health services
+2017,-0.2,Education and health services
+2018,0.1,Education and health services
+2019,1.2,Education and health services
+2020,-2.4,Education and health services
+2021,2.0,Education and health services
+2011,0.9,Manufacturing
+2012,-1.2,Manufacturing
+2013,1.1,Manufacturing
+2014,-0.6,Manufacturing
+2015,-1.8,Manufacturing
+2016,-0.1,Manufacturing
+2017,-1.1,Manufacturing
+2018,0.2,Manufacturing
+2019,-2.4,Manufacturing
+2020,0.4,Manufacturing
+2021,1.8,Manufacturing
