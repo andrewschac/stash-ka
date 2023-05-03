@@ -45,26 +45,31 @@ Our general hypotheses and corresponding thoughts are outlined below:
 
 ## Methodology <a name="method"></a>
 
-Here is some code that we used to develop our analysis. Blah Blah. [More details are provided in the Analysis File](https://github.com/andrewschac/stash-ka/blob/main/build_sample.ipynb).
- 
-Note that for the purposes of the website, you have to copy this code into the markdown file and  
-put the code inside trip backticks with the keyword `python`.
+We wanted to create a singular, robust WFH dataset that encompassed the main variables from all of the imported datasets. This dataset contained the following variables:
+- Year (across all datasets)
+- Industry (across all datasets)
+- WFH% (WFH dataset)
+- quit_rate (Turnover dataset)
+- % change in output per hour (Productivity dataset)
+- % change in average wage (Compensation dataset)
+This final dataset was in panel format, sorted by industry and year (2010-2022). After constructing the thorough, completed dataset, the variables were transformed into various different types of [visualizations](#analysis). 
 
-```python
-import seaborn as sns 
-iris = sns.load_dataset('iris') 
+### EDA
 
-print(iris.head(),  '\n---')
-print(iris.tail(),  '\n---')
-print(iris.columns, '\n---')
-print("The shape is: ",iris.shape, '\n---')
-print("Info:",iris.info(), '\n---') # memory usage, name, dtype, and # of non-null obs (--> # of missing obs) per variable
-print(iris.describe(), '\n---') # summary stats, and you can customize the list!
-print(iris['species'].value_counts()[:10], '\n---')
-print(iris['species'].nunique(), '\n---')
-```
+#### *WFH*
+This dataset, obtained from the BLS Employee Benefit Survey, contains the main WFH % variable for our analysis and sets the stage for categorizing each industry. An initial problem that immediately pops out is the data type of the WFH variable, it must be changed to a numeric type to behave correctly in our analysis. Additionally, the excess columns must be dropped in order to simplify the merge. The highest WFH rate is 39% and the lowest is 1%, numbers we believe are quite feasible.
 
-Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
+#### *Turnover*
+This dataset, obtained form the BLS JOLTS database, is very straightforward. It contains solely the industry, year, and quit_rate. After describing the variables, the minimum is 0.3% and the maximum is 5.8%. We did not encounter many difficulties when utilizing this dataset. 
+
+#### *Productivity*
+This dataset, obtained from the BLS Office of Productivity and Technology, specifically references the "output per hour" variable that they track in their Labor Productivity/Total Factor Productivity databases, however, it is transformed into `% change in output per hour`, annually. This variable is further broken down into industry and year, like the others. There was one issue that we found which may bring up problems; this dataset only spans into 2021, not 2022. This influences the tail end of our visualizations, causing output per hour to trail off before the other variables. All other variables seem sufficient. The % change in output per hour max is 11.3 and the min is -10.9.
+
+#### *Compensation*
+This dataset, obtained from the BLS Current Population Survey, provides the compensation variable for our study, `% change in average wage`. When importing the dataset initially, the coumns names are also labeled incorrectly so this needed to be fixed. The % change variable is of sufficient type and its maximum is 8.1% and the minimum is 0%. The standard error column will also need to be deleted.
+
+### Final Dataset Example
+![](pics/complete_dataset.png)
 
 ## Analysis <a name="analysis"></a>
 
