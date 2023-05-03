@@ -1,7 +1,5 @@
 # Work From Home's Influence on Employee Performance and Compensation
 
-## Jon Trzaska and Andrew Schachter
-
 [This](https://andrewschac.github.io/stash-ka/) is a website to showcase our final project for FIN 377 - Data Science for Finance course at Lehigh University.
 
 To see the complete analysis file(s) click [here](https://github.com/andrewschac/stash-ka/blob/main/build_sample.ipynb).
