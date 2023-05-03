@@ -1,0 +1,261 @@
+Year,12 months pct change in wage,Estimate Value,Standard Error
+2010,Utilities,2.0,0.4
+2011,Utilities,2.8,0.2
+2012,Utilities,2.4,0.2
+2013,Utilities,2.9,0.2
+2014,Utilities,2.5,0.3
+2015,Utilities,2.4,0.2
+2016,Utilities,2.7,0.3
+2017,Utilities,2.4,0.3
+2018,Utilities,2.3,0.2
+2019,Utilities,3.0,0.3
+2020,Utilities,2.1,0.3
+2021,Utilities,3.2,0.3
+2022,Utilities,3.4,0.3
+2010,Construction,0.7,0.3
+2011,Construction,1.2,0.5
+2012,Construction,1.2,0.4
+2013,Construction,1.6,0.4
+2014,Construction,1.9,0.5
+2015,Construction,2.6,0.3
+2016,Construction,2.1,0.4
+2017,Construction,2.5,0.4
+2018,Construction,3.1,0.4
+2019,Construction,3.8,0.6
+2020,Construction,2.8,0.7
+2021,Construction,3.8,0.3
+2022,Construction,4.8,0.3
+2010,Manufacturing,1.7,0.2
+2011,Manufacturing,1.8,0.2
+2012,Manufacturing,1.9,0.2
+2013,Manufacturing,2.1,0.2
+2014,Manufacturing,2.2,0.2
+2015,Manufacturing,2.7,0.2
+2016,Manufacturing,2.6,0.2
+2017,Manufacturing,2.5,0.2
+2018,Manufacturing,2.8,0.2
+2019,Manufacturing,3.2,0.2
+2020,Manufacturing,2.6,0.3
+2021,Manufacturing,4.1,0.3
+2022,Manufacturing,5.1,0.3
+2010,"Trade, transportation, and utilities",1.9,0.2
+2011,"Trade, transportation, and utilities",1.7,0.4
+2012,"Trade, transportation, and utilities",1.9,0.6
+2013,"Trade, transportation, and utilities",2.7,0.4
+2014,"Trade, transportation, and utilities",2.8,0.3
+2015,"Trade, transportation, and utilities",2.0,0.5
+2016,"Trade, transportation, and utilities",2.6,0.4
+2017,"Trade, transportation, and utilities",3.2,0.2
+2018,"Trade, transportation, and utilities",3.4,0.5
+2019,"Trade, transportation, and utilities",3.3,0.3
+2020,"Trade, transportation, and utilities",3.4,0.3
+2021,"Trade, transportation, and utilities",6.1,0.4
+2022,"Trade, transportation, and utilities",4.9,0.3
+2010,Retail trade,1.4,0.4
+2011,Retail trade,2.1,0.4
+2012,Retail trade,1.1,0.4
+2013,Retail trade,2.2,0.3
+2014,Retail trade,2.5,0.3
+2015,Retail trade,3.1,0.5
+2016,Retail trade,3.2,0.6
+2017,Retail trade,3.3,0.3
+2018,Retail trade,3.2,0.3
+2019,Retail trade,3.9,0.3
+2020,Retail trade,4.0,0.3
+2021,Retail trade,7.0,0.4
+2022,Retail trade,5.5,0.6
+2010,Wholesale trade,2.0,0.6
+2011,Wholesale trade,1.6,1.1
+2012,Wholesale trade,2.0,2.0
+2013,Wholesale trade,3.8,1.0
+2014,Wholesale trade,3.8,1.0
+2015,Wholesale trade,0.0,1.5
+2016,Wholesale trade,0.7,1.1
+2017,Wholesale trade,3.4,0.5
+2018,Wholesale trade,3.5,1.4
+2019,Wholesale trade,1.3,0.9
+2020,Wholesale trade,2.4,0.7
+2021,Wholesale trade,6.1,1.0
+2022,Wholesale trade,5.0,0.6
+2010,Transportation and warehousing,2.5,0.5
+2011,Transportation and warehousing,1.0,0.6
+2012,Transportation and warehousing,3.7,0.4
+2013,Transportation and warehousing,2.1,0.3
+2014,Transportation and warehousing,2.5,0.3
+2015,Transportation and warehousing,2.1,0.5
+2016,Transportation and warehousing,3.9,0.4
+2017,Transportation and warehousing,3.1,0.6
+2018,Transportation and warehousing,4.0,0.6
+2019,Transportation and warehousing,4.7,0.6
+2020,Transportation and warehousing,3.9,0.4
+2021,Transportation and warehousing,4.3,0.3
+2022,Transportation and warehousing,3.5,0.4
+2010,Information,1.3,0.4
+2011,Information,1.9,0.5
+2012,Information,2.0,0.5
+2013,Information,1.2,0.5
+2014,Information,2.0,0.6
+2015,Information,2.1,0.3
+2016,Information,3.2,0.5
+2017,Information,2.1,0.3
+2018,Information,3.0,0.3
+2019,Information,2.7,0.2
+2020,Information,3.0,0.4
+2021,Information,3.9,0.3
+2022,Information,4.9,0.5
+2010,Finanace and insurance,3.3,0.6
+2011,Finanace and insurance,1.3,0.5
+2012,Finanace and insurance,2.0,0.5
+2013,Finanace and insurance,2.7,0.6
+2014,Finanace and insurance,1.7,0.5
+2015,Finanace and insurance,2.4,0.4
+2016,Finanace and insurance,3.1,0.4
+2017,Finanace and insurance,2.2,0.4
+2018,Finanace and insurance,3.2,0.6
+2019,Finanace and insurance,3.0,0.4
+2020,Finanace and insurance,2.4,0.4
+2021,Finanace and insurance,3.8,1.7
+2022,Finanace and insurance,4.8,1.2
+2010,Financial activities,2.8,0.6
+2011,Financial activities,1.6,0.4
+2012,Financial activities,1.9,0.4
+2013,Financial activities,2.8,0.5
+2014,Financial activities,1.8,0.4
+2015,Financial activities,2.3,0.3
+2016,Financial activities,3.3,0.4
+2017,Financial activities,2.1,0.3
+2018,Financial activities,3.1,0.5
+2019,Financial activities,3.0,0.3
+2020,Financial activities,2.3,0.4
+2021,Financial activities,3.9,1.4
+2022,Financial activities,5.0,0.9
+2010,Credit intermediation,2.4,0.8
+2011,Credit intermediation,1.4,1.0
+2012,Credit intermediation,2.4,0.5
+2013,Credit intermediation,1.9,0.7
+2014,Credit intermediation,1.8,0.4
+2015,Credit intermediation,2.4,0.4
+2016,Credit intermediation,2.8,0.5
+2017,Credit intermediation,2.2,0.3
+2018,Credit intermediation,2.8,0.5
+2019,Credit intermediation,3.4,0.7
+2020,Credit intermediation,2.4,0.7
+2021,Credit intermediation,8.1,4.4
+2022,Credit intermediation,2.1,2.8
+2010,Real estate and rental and leasing,1.2,0.6
+2011,Real estate and rental and leasing,2.8,0.5
+2012,Real estate and rental and leasing,1.6,0.6
+2013,Real estate and rental and leasing,2.6,0.8
+2014,Real estate and rental and leasing,2.2,0.6
+2015,Real estate and rental and leasing,2.1,0.5
+2016,Real estate and rental and leasing,3.8,0.6
+2017,Real estate and rental and leasing,2.2,0.5
+2018,Real estate and rental and leasing,2.9,0.5
+2019,Real estate and rental and leasing,2.5,0.7
+2020,Real estate and rental and leasing,1.9,0.7
+2021,Real estate and rental and leasing,4.4,0.4
+2022,Real estate and rental and leasing,5.8,0.4
+2010,Professional and business services,2.0,0.4
+2011,Professional and business services,1.7,0.2
+2012,Professional and business services,2.0,0.3
+2013,Professional and business services,1.4,0.4
+2014,Professional and business services,2.4,0.4
+2015,Professional and business services,2.2,0.3
+2016,Professional and business services,1.3,0.6
+2017,Professional and business services,2.9,0.3
+2018,Professional and business services,2.9,0.4
+2019,Professional and business services,2.7,0.2
+2020,Professional and business services,2.9,0.3
+2021,Professional and business services,4.1,0.3
+2022,Professional and business services,5.0,0.3
+2010,Education and health services,1.5,0.2
+2011,Education and health services,1.4,0.3
+2012,Education and health services,1.8,0.4
+2013,Education and health services,1.9,0.2
+2014,Education and health services,1.8,0.3
+2015,Education and health services,1.7,0.2
+2016,Education and health services,2.1,0.3
+2017,Education and health services,2.2,0.2
+2018,Education and health services,3.2,0.4
+2019,Education and health services,2.4,0.1
+2020,Education and health services,2.3,0.3
+2021,Education and health services,4.6,0.3
+2022,Education and health services,5.6,0.3
+2010,Education services,1.7,0.3
+2011,Education services,2.0,0.5
+2012,Education services,1.3,0.5
+2013,Education services,1.9,0.3
+2014,Education services,1.7,0.4
+2015,Education services,1.5,0.3
+2016,Education services,2.3,0.4
+2017,Education services,2.0,0.2
+2018,Education services,2.3,0.2
+2019,Education services,2.6,0.2
+2020,Education services,2.1,0.5
+2021,Education services,2.7,0.5
+2022,Education services,5.1,0.8
+2010,Health care and social assistance,1.4,0.2
+2011,Health care and social assistance,1.4,0.3
+2012,Health care and social assistance,1.9,0.4
+2013,Health care and social assistance,1.8,0.2
+2014,Health care and social assistance,1.9,0.3
+2015,Health care and social assistance,1.7,0.2
+2016,Health care and social assistance,2.1,0.3
+2017,Health care and social assistance,2.3,0.2
+2018,Health care and social assistance,3.3,0.5
+2019,Health care and social assistance,2.4,0.2
+2020,Health care and social assistance,2.3,0.3
+2021,Health care and social assistance,5.1,0.4
+2022,Health care and social assistance,5.7,0.3
+2010,Hospitals,1.6,0.2
+2011,Hospitals,1.6,0.1
+2012,Hospitals,1.5,0.2
+2013,Hospitals,1.6,0.2
+2014,Hospitals,1.7,0.2
+2015,Hospitals,2.0,0.1
+2016,Hospitals,2.5,0.3
+2017,Hospitals,2.2,0.2
+2018,Hospitals,2.7,0.3
+2019,Hospitals,2.4,0.2
+2020,Hospitals,2.3,0.4
+2021,Hospitals,5.1,0.2
+2022,Hospitals,5.7,0.3
+2010,Other services (except public administration),1.0,0.4
+2011,Other services (except public administration),1.8,0.5
+2012,Other services (except public administration),1.3,0.6
+2013,Other services (except public administration),3.4,0.5
+2014,Other services (except public administration),1.0,0.6
+2015,Other services (except public administration),2.7,0.8
+2016,Other services (except public administration),2.8,0.7
+2017,Other services (except public administration),2.4,0.5
+2018,Other services (except public administration),2.7,0.4
+2019,Other services (except public administration),3.3,0.6
+2020,Other services (except public administration),2.4,0.7
+2021,Other services (except public administration),6.1,0.8
+2022,Other services (except public administration),4.3,0.6
+2010,Goods-producing,1.5,0.2
+2011,Goods-producing,1.7,0.2
+2012,Goods-producing,1.7,0.2
+2013,Goods-producing,1.9,0.2
+2014,Goods-producing,2.1,0.2
+2015,Goods-producing,2.6,0.2
+2016,Goods-producing,2.4,0.2
+2017,Goods-producing,2.5,0.2
+2018,Goods-producing,2.9,0.2
+2019,Goods-producing,3.4,0.2
+2020,Goods-producing,2.5,0.3
+2021,Goods-producing,4.0,0.2
+2022,Goods-producing,5.0,0.2
+2010,Service-providing,1.8,0.2
+2011,Service-providing,1.6,0.2
+2012,Service-providing,1.8,0.2
+2013,Service-providing,2.1,0.2
+2014,Service-providing,2.3,0.2
+2015,Service-providing,2.0,0.2
+2016,Service-providing,2.3,0.2
+2017,Service-providing,2.8,0.2
+2018,Service-providing,3.2,0.2
+2019,Service-providing,2.9,0.1
+2020,Service-providing,2.9,0.1
+2021,Service-providing,5.2,0.2
+2022,Service-providing,5.2,0.2
