@@ -62,10 +62,10 @@ This dataset, obtained from the BLS Employee Benefit Survey, contains the main W
 #### <a id="1">[2]</a> *Turnover*
 This dataset, obtained form the BLS JOLTS database, is very straightforward. It contains solely the industry, year, and quit_rate. After describing the variables, the minimum is 0.3% and the maximum is 5.8%. We did not encounter many difficulties when utilizing this dataset. 
 
-#### <a id="1">[3]</a>*Productivity*
+#### <a id="1">[3]</a> *Productivity*
 This dataset, obtained from the BLS Office of Productivity and Technology, specifically references the "output per hour" variable that they track in their Labor Productivity/Total Factor Productivity databases, however, it is transformed into `% change in output per hour`, annually. This variable is further broken down into industry and year, like the others. There was one issue that we found which may bring up problems; this dataset only spans into 2021, not 2022. This influences the tail end of our visualizations, causing output per hour to trail off before the other variables. All other variables seem sufficient. The % change in output per hour max is 11.3 and the min is -10.9.
 
-#### <a id="1">[4]</a>*Compensation*
+#### <a id="1">[4]</a> *Compensation*
 This dataset, obtained from the BLS Current Population Survey, provides the compensation variable for our study, `% change in average wage`. When importing the dataset initially, the coumns names are also labeled incorrectly so this needed to be fixed. The % change variable is of sufficient type and its maximum is 8.1% and the minimum is 0%. The standard error column will also need to be deleted.
 
 ### Final Dataset Example
