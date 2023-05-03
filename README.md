@@ -115,7 +115,7 @@ Bureau of Labor Statistics. (2023, May 3). *2010 - 2022 National Compensation Su
 Bureau of Labor Statistics. (2023, May 3). *Job Openings and Labor Turnover Survey* [Data set]. Job Openings and Labor Turnover Survey (JOLTS). U. S. Department of Labor. [https://www.bls.gov/jlt/data.htm](https://www.bls.gov/jlt/data.htm) 
 
 <a id="1">[3]</a>
-Bureau of Labor Statistics. (2023, May 3). *Office of Productivity and Technology* [Data set]. Detailed Industry Productivity (Labor, Total Factor, and State Labor). U. S. Department of Labor.[https://www.bls.gov/productivity/data.htm](https://www.bls.gov/productivity/data.htm))
+Bureau of Labor Statistics. (2023, May 3). *Office of Productivity and Technology* [Data set]. Detailed Industry Productivity (Labor, Total Factor, and State Labor). U. S. Department of Labor.[https://www.bls.gov/productivity/data.htm](https://www.bls.gov/productivity/data.htm)
 
 <a id="1">[4]</a>
 Bureau of Labor Statistics. (2023, May 3). *Current Employment Statistics - CES (National)* [Data set]. Employment, Hours, and Earnings - National. U. S. Department of Labor.[https://www.bls.gov/ces/data/](https://www.bls.gov/ces/data/)
