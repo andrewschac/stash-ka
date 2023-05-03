@@ -40,8 +40,8 @@ Our general hypotheses and corresponding thoughts are outlined below:
     - *Working from home adds more flexibility to an individual's schedule and reduces unnecessary aspects associated with working (commutes, less time wasted in meetings, monetary savings in regard to food/commute, etc.).*
 - WFH increases employee productivity
     - *Employees are more distracted in the workplace and they avoid the downtime that occurs within an office setting.* 
-- WFH lessens employee compensation
-    - *Working from home is a benefit that many employees do not receive. While that changed during the COVID-19 era, being able to work from home is still a luxury that employees would have to pay for from their compensation.*   
+- WFH lessens increases in employee compensation year-over-year
+    - *Working from home is a benefit that many employees do not receive. While that changed during the COVID-19 era, being able to work from home is still a luxury that employees would have to pay for out of their own pockets.*   
 
 ## Methodology <a name="method"></a>
 
