@@ -2,16 +2,14 @@
 
 This is a website to showcase our final project for FIN 377 - Data Science for Finance course at Lehigh University.
 
-To see the complete analysis file(s) click [here](https://github.com/andrewschac/stash-ka/blob/main/notebooks/example.ipynb).
+To see the complete analysis file(s) click [here](https://github.com/andrewschac/stash-ka/blob/main/build_sample.ipynb).
 
 ## Table of contents
 1. [Introduction](#introduction)
-2. [Methodology](#meth)
-3. [Section 2](#section2)
-    1. [Subsection](#subsec2-1)
-    2. [Subsection](#subsec2-2)
-4. [Analysis Section](#section3)
-5. [Summary](#summary)
+2. [Methodology](#method)
+3. [Analysis](#analysis)
+4. [Summary](#summary)
+5. [About the team](#about)
 
 ## Introduction  <a name="introduction"></a>
 
@@ -45,9 +43,9 @@ Our general hypotheses and corresponding thoughts are outlined below:
 - WFH lessens employee compensation
     - *Working from home is a benefit that many employees do not receive. While that changed during the COVID-19 era, being able to work from home is still a luxury that employees would have to pay for from their compensation.*   
 
-## Methodology <a name="meth"></a>
+## Methodology <a name="method"></a>
 
-Here is some code that we used to develop our analysis. Blah Blah. [More details are provided in the Appendix](page2).
+Here is some code that we used to develop our analysis. Blah Blah. [More details are provided in the Analysis File](https://github.com/andrewschac/stash-ka/blob/main/build_sample.ipynb).
  
 Note that for the purposes of the website, you have to copy this code into the markdown file and  
 put the code inside trip backticks with the keyword `python`.
@@ -68,7 +66,7 @@ print(iris['species'].nunique(), '\n---')
 
 Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
 
-## Analysis <a name="section3"></a>
+## Analysis <a name="analysis"></a>
 
 Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
 
@@ -90,7 +88,7 @@ More analysis.
 
 
 
-## About the team
+## About the team <a name="about"></a>
 
 <img src="pics/IMG_5501.jpeg" alt="Andrew" width="300"/>
 <br>
