@@ -57,7 +57,7 @@ This final dataset was in panel format, sorted by industry and year (2010-2022).
 ### EDA
 
 #### <a id="1">[1]</a> *WFH*
-This dataset, obtained from the BLS Employee Benefit Survey, contains the main WFH % variable for our analysis and sets the stage for categorizing each industry. An initial problem that immediately pops out is the data type of the WFH variable, it must be changed to a numeric type to behave correctly in our analysis. Additionally, the excess columns must be dropped in order to simplify the merge. The highest WFH rate is 39% and the lowest is 1%, numbers we believe are quite feasible.
+This dataset, obtained from the BLS Employee Benefit Survey, contains the main WFH % variable for our analysis and sets the stage for categorizing each industry. An initial problem that immediately pops up is the data type of the WFH variable as it must be changed to a numeric type to behave correctly in our analysis. Additionally, the excess columns must be dropped in order to simplify the merge. The highest WFH rate is 39% and the lowest is 1%, numbers we believe are quite reasonable.
 
 #### <a id="1">[2]</a> *Turnover*
 This dataset, obtained form the BLS JOLTS database, is very straightforward. It contains solely the industry, year, and quit_rate. After describing the variables, the minimum is 0.3% and the maximum is 5.8%. We did not encounter many difficulties when utilizing this dataset. 
@@ -67,6 +67,20 @@ This dataset, obtained from the BLS Office of Productivity and Technology, speci
 
 #### <a id="1">[4]</a> *Compensation*
 This dataset, obtained from the BLS Current Population Survey, provides the compensation variable for our study, `% change in average wage`. When importing the dataset initially, the coumns names are also labeled incorrectly so this needed to be fixed. The % change variable is of sufficient type and its maximum is 8.1% and the minimum is 0%. The standard error column will also need to be deleted.
+
+### Our Coding Process
+Our coding process after our EDA was finished can be broken down into three main steps:
+1. Readying the datasets for merge
+2. Merging the datasets to create our main dataset
+3. Using the main dataset to create our graphs
+
+This was the code we used for the merge:
+
+```python
+intermediate = pd.merge(WFH, compensation, how='left', on=['Industry','Year'], indicator=True, validate='m:m')
+intermediate2 = pd.merge(intermediate, turnover, how='left', on=['Industry','Year'], indicator=True, validate='m:m')
+complete_dataset = pd.merge(intermediate2, productivity, how='left', on=['Industry','Year'], indicator=True, validate='m:m')
+```
 
 ### Final Dataset Example
 ![](pics/complete_dataset.png)
@@ -85,25 +99,30 @@ The multiple time series graph above shows each industry highlighted in blue and
 <br><br>
 ![](pics/WFH_v_turnover.png)
 <br><br>
-More analysis.
+The positive correlation suggested in this graph suggests that employees are more likely to leave a company when WFH rate increases. This may partly have to do with time and many employees leaving their jobs during COVID, right when the WFH rate started increasing for many industries.
 <br><br>
 ![](pics/WFH_v_productivity.png)
 <br><br>
-More analysis.
+There is no clear association in this graph. A deeper dive into each industry will have to be done to glean something from this data.
 <br><br>
 ![](pics/WFH_v_compensation.png)
 <br><br>
-More analysis.
+Similarly to the first graph, there is a positive association between employee compensation and WFH rate. However, also like the first graph it is impossible to tell without a deeper dive if this is related to WFH rate increasing over time and employee compensation also increasing over time, or if one causes the other. If we could get change in employee compensation for industries that do not WFH vs. industries that do and compare them on a smaller level, it may be easier to find the answers we are attempting to find. 
 
 ## Summary <a name="summary"></a>
 
 ### Hypothesis Review
 
-
+1. WFH makes an employee more likely to stay with a company	
+    - We found a positive association between WFH and turnover, suggesting that our hypothesis was wrong in this case
+2. WFH increases employee productivity
+    - We found no clear association between WFH and productivity and it clearly depended on the industry as to what the correlation was between the two variables
+3. WFH lessens increases in employee compensation
+    - While there seems to be correlation between the variables, it is difficult to tell if this is related to a time factor or if WFH really is the cause
 
 ### Success and Things to Learn From
 
-This project was far from a constant success, we had our fair share of both satisfying success and insurmountable obstabcles. What we ultimately realized was that the bulk of the heavily lifting and even the analysis was on the data itself, not the variables in question. Striving to obtain the most representative data for our project was the most difficult part. While initially planning to assess the effect of WFH on employee growth and success, we could not seem to find a way around the various paywalls that protect invaluable consumer attitudes data. Understandably, know that through their private surveys and studies that they have something that everyone else wants, but not-willing to spend money on a dataset, we ultimately had to readjust our project scope to focus on more attainable measures. We relied heavily on the Bureau of Labor Statistics and it accessible data that more accurately describes an employee's condition rather than gaining individual insights. We believe that with the right resources, the project can be transformed into a more robust analysis of US worker attitudes and performance. 
+This project was far from a constant success, we had our fair share of both satisfying success and insurmountable obstacles. What we ultimately realized was that the bulk of the heavy lifting and even the analysis was on the data itself, not the variables in question. Striving to obtain the most representative data for our project was the most difficult part. While initially planning to assess the effect of WFH on employee growth and success, we could not seem to find a way around the various paywalls that protect invaluable consumer attitudes data. Understandably, they know that through their private surveys and studies that they have something that everyone else wants. Not willing to spend money on a dataset, we ultimately had to readjust our project scope to focus on more attainable measures. We relied heavily on the Bureau of Labor Statistics and its accessible data that more accurately describes an employee's condition rather than gaining individual insights. We believe that with the right resources, the project can be transformed into a more robust analysis of US worker attitudes and performance. 
 
 When conducting our analysis we ran into many difficulties when trying to perform regressions. In our early stages, we counted on completing regression to give us more concrete footing when establishing a connection and correlation between WFH and employees. Unfortunately, we found that not all BLS data is created equally and the variance among industry/sector specificity across each variable we collected restricted our ability to conduct regressions. 
 
