@@ -78,15 +78,15 @@ The heatmap above provides an overview of WFH percentage by industry and year. T
 <br><br>
 The multiple time series graph above shows each industry highlighted in blue and its relation to the rest of the graphs in the background. The x-axis is year and the y-axis is WFH percentage so we can see WFH percentage over time by industry in a different way than the heatmap. Similarly to the heatmap, this series of graphs shows that certain industries provide more opportunities for WFH than others, and WFH generally tends to increase over time.
 <br><br>
-![](pics/WFH_v_turnover.jpg)
+![](pics/WFH_v_turnover.png)
 <br><br>
 More analysis.
 <br><br>
-![](pics/WFH_v_productivity.jpg)
+![](pics/WFH_v_productivity.png)
 <br><br>
 More analysis.
 <br><br>
-![](pics/WFH_v_compensation.jpg)
+![](pics/WFH_v_compensation.png)
 <br><br>
 More analysis.
 
