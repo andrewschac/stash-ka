@@ -72,13 +72,21 @@ Here are some graphs that we created in our analysis. We saved them to the `pics
 
 ![](pics/heatmap.jpg)
 <br><br>
-Some analysis here
+The heatmap above provides an overview of WFH percentage by industry and year. The x-axis shows year and the y-axis shows each industry, with the shading of the map being percentage of WFH employees. We can see that over time certain industries become more conducive to the WFH environment, while other industries do not change much at all. The specific industries that fall into each category are easily explained by diving into the data. For example, 1% of people working in retail sales were remote because it is impossible to sell things in a store from outside the store. On the other hand, people working for insurance carriers were increasingly given the opportunity to work remotely because the nature of their jobs allowed them to.
 <br><br>
 ![](pics/multiple_time_series.jpg)
 <br><br>
-More analysis here.
+The multiple time series graph above shows each industry highlighted in blue and its relation to the rest of the graphs in the background. The x-axis is year and the y-axis is WFH percentage so we can see WFH percentage over time by industry in a different way than the heatmap. Similarly to the heatmap, this series of graphs shows that certain industries provide more opportunities for WFH than others, and WFH generally tends to increase over time.
 <br><br>
-![](pics/plot3.png)
+![](pics/WFH_v_turnover.jpg)
+<br><br>
+More analysis.
+<br><br>
+![](pics/WFH_v_productivity.jpg)
+<br><br>
+More analysis.
+<br><br>
+![](pics/WFH_v_compensation.jpg)
 <br><br>
 More analysis.
 
