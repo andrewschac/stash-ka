@@ -70,7 +70,7 @@ Notice that the output does NOT show! **You have to copy in figures and tables f
 
 Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
 
-![](pics/plot1.png)
+![](pics/heatmap.jpg)
 <br><br>
 Some analysis here
 <br><br>
