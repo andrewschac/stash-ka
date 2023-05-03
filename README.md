@@ -56,16 +56,16 @@ This final dataset was in panel format, sorted by industry and year (2010-2022).
 
 ### EDA
 
-#### *WFH*
+#### <a id="1">[1]</a> *WFH*
 This dataset, obtained from the BLS Employee Benefit Survey, contains the main WFH % variable for our analysis and sets the stage for categorizing each industry. An initial problem that immediately pops out is the data type of the WFH variable, it must be changed to a numeric type to behave correctly in our analysis. Additionally, the excess columns must be dropped in order to simplify the merge. The highest WFH rate is 39% and the lowest is 1%, numbers we believe are quite feasible.
 
-#### *Turnover*
+#### <a id="1">[2]</a> *Turnover*
 This dataset, obtained form the BLS JOLTS database, is very straightforward. It contains solely the industry, year, and quit_rate. After describing the variables, the minimum is 0.3% and the maximum is 5.8%. We did not encounter many difficulties when utilizing this dataset. 
 
-#### *Productivity*
+#### <a id="1">[3]</a>*Productivity*
 This dataset, obtained from the BLS Office of Productivity and Technology, specifically references the "output per hour" variable that they track in their Labor Productivity/Total Factor Productivity databases, however, it is transformed into `% change in output per hour`, annually. This variable is further broken down into industry and year, like the others. There was one issue that we found which may bring up problems; this dataset only spans into 2021, not 2022. This influences the tail end of our visualizations, causing output per hour to trail off before the other variables. All other variables seem sufficient. The % change in output per hour max is 11.3 and the min is -10.9.
 
-#### *Compensation*
+#### <a id="1">[4]</a>*Compensation*
 This dataset, obtained from the BLS Current Population Survey, provides the compensation variable for our study, `% change in average wage`. When importing the dataset initially, the coumns names are also labeled incorrectly so this needed to be fixed. The % change variable is of sufficient type and its maximum is 8.1% and the minimum is 0%. The standard error column will also need to be deleted.
 
 ### Final Dataset Example
@@ -97,9 +97,28 @@ More analysis.
 
 ## Summary <a name="summary"></a>
 
+### Hypothesis Review
 
 
 
+### Success and Things to Learn From
+
+This project was far from a constant success, we had our fair share of both satisfying success and insurmountable obstabcles. What we ultimately realized was that the bulk of the heavily lifting and even the analysis was on the data itself, not the variables in question. Striving to obtain the most representative data for our project was the most difficult part. While initially planning to assess the effect of WFH on employee growth and success, we could not seem to find a way around the various paywalls that protect invaluable consumer attitudes data. Understandably, know that through their private surveys and studies that they have something that everyone else wants, but not-willing to spend money on a dataset, we ultimately had to readjust our project scope to focus on more attainable measures. We relied heavily on the Bureau of Labor Statistics and it accessible data that more accurately describes an employee's condition rather than gaining individual insights. We believe that with the right resources, the project can be transformed into a more robust analysis of US worker attitudes and performance. 
+
+When conducting our analysis we ran into many difficulties when trying to perform regressions. In our early stages, we counted on completing regression to give us more concrete footing when establishing a connection and correlation between WFH and employees. Unfortunately, we found that not all BLS data is created equally and the variance among industry/sector specificity across each variable we collected restricted our ability to conduct regressions. 
+
+## References
+<a id="1">[1]</a>
+Bureau of Labor Statistics. (2023, May 3). *2010 - 2022 National Compensation Survey: Employee Benefits in the United States* [Data set]. Occupational Employment Statistics. U. S. Department of Labor. [https://www.bls.gov/oes/current/oes_ok.htm#13-0000](https://www.bls.gov/ebs/publications/september-2022-landing-page-employee-benefits-in-the-united-states-march-2022.htm)
+
+<a id="1">[2]</a>
+Bureau of Labor Statistics. (2023, May 3). *Job Openings and Labor Turnover Survey* [Data set]. Job Openings and Labor Turnover Survey (JOLTS). U. S. Department of Labor. [https://www.bls.gov/jlt/data.htm](https://www.bls.gov/jlt/data.htm) 
+
+<a id="1">[3]</a>
+Bureau of Labor Statistics. (2023, May 3). *Office of Productivity and Technology* [Data set]. Detailed Industry Productivity (Labor, Total Factor, and State Labor). U. S. Department of Labor.[https://www.bls.gov/productivity/data.htm](https://www.bls.gov/productivity/data.htm))
+
+<a id="1">[4]</a>
+Bureau of Labor Statistics. (2023, May 3). *Current Employment Statistics - CES (National)* [Data set]. Employment, Hours, and Earnings - National. U. S. Department of Labor.[https://www.bls.gov/ces/data/](https://www.bls.gov/ces/data/)
 
 ## About the team <a name="about"></a>
 
