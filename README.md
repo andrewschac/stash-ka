@@ -17,21 +17,21 @@ To see the complete analysis file(s) click [here](https://github.com/andrewschac
 
 The inspiration for our final project stems from the wide-ranging work from home (WFH) work done by Nicholas Bloom. We utilized some of the data that he  compiled in his work and applied it to understand how the recent WFH shift has influenced employees' experience in the workplace. Generally, we asked the following questions:
 
-1. Does WFH contribute to a worse experience for employees in regard to training, development, and integration?
+1. Does WFH contribute to a worse experience for employees in regards to turnover and compensation?
 2. What is WFH's effect on employee performance?
 
 ### Approach
 
-We approached these questions by assessing the employees on a macro scale. By this, we mean looking at general trends across time and comparing levels compensation and performance to the proportion of WFH employees. Some of the specific questions we are going to answer to assess the impact of WFH on employees include:
+We approached these questions by assessing employees on a macro scale. We wanted to look at general trends across time and compared compensation and performance to the proportion of WFH employees. Some of the specific questions we answered to assess the impact of WFH on employees include:
 1. Is an employee more likely to leave a company if they WFH?
 2. Does WFH increase employee productivity?
 3. How is WFH correlated with employee compensation?
 
-In answering these questions, we assessed how the levels of variables changed in times before and after the WFH boom in the COVID-19 era. For other variables, we compared the correlation of them to the proportion of WFH over time. 
+In answering these questions, we compared the correlation of our variables to the proportion of WFH over time. 
 
 ### Why this project
 
-The main goal of this project is to explore the relationship between WFH and different variables that quantify employee opportunity and performance. Both of us having experience as students who were forced to learn from home and having WFH work experience in the past, we generally expect the influence of WFH to have a positive impact in most aspects of an employee's experience. 
+The main goal of this project is to explore the relationship between WFH and different variables that quantify employee opportunity and performance. Both of us having experience as students who were forced to learn from home and having WFH work experience in the past, we generally expected the influence of WFH to have a positive impact in quality of an employee's experience, yet negative impact on some of the factors we assessed. 
 
 ### Hypotheses
 
